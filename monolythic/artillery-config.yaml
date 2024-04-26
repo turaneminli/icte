@@ -1,0 +1,21 @@
+# artillery-config.yaml
+config:
+  target: "http://localhost:3000" # Target URL of your monolithic Node.js app
+  phases:
+    - duration: 60
+      arrivalRate: 10 # 10 virtual users per second
+  defaults:
+    headers:
+      Content-Type: "application/json"
+
+scenarios:
+  - flow:
+      - get:
+          url: "/users" # Endpoint to test
+      - get:
+          url: "/products"
+      - post:
+          url: "/orders"
+          json:
+            userId: 1
+            productId: 1
