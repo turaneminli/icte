@@ -2,7 +2,7 @@ config:
   target: "http://127.0.0.1:3003" # The endpoint for the orders service
   phases:
     - duration: 120 # Test for 60 seconds
-      arrivalRate: 100 # 5 virtual users per second
+      arrivalRate: 10 # 5 virtual users per second
 scenarios:
   - flow:
       - post:

@@ -1,0 +1,541 @@
+____________________________________________________________________
+			P o w e r T O P
+
+____________________________________________________________________
+ *  *  *   System Information   *  *  *
+
+PowerTOP Version;2.14 ran at Sat May  4 12:57:45 2024
+
+Kernel Version;Linux version 6.5.0-27-generic
+System Name;HP84A7Type1ProductConfigId
+CPU Information;8 Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+OS Information;Ubuntu 22.04.4 LTS
+
+Target: 1 units/s;System:  975.7 wakeup/s;CPU:  39.9% usage;GPU: 0 ops/s;GFX: 0 wakeups/s;VFS: 0 ops/s;
+
+____________________________________________________________________
+ *  *  *   Top 10 Power Consumers   *  *  *
+
+Usage;Events/s;Category;Description
+  0.7%;421.6;Timer;tick_sched_timer
+  1.5%;  0.5;Process;[PID 1842] /usr/bin/pulseaudio --daemonize=no --log-target=journal 
+100.0%;;Device;Audio codec hwC0D2: Intel
+  4.7%; 77.6;Process;[PID 258532] /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=64211 --enable-crash-reporter=4e566ae1-07c3-41b7-
+  0.7%; 74.3;Timer;hrtimer_wakeup
+  1.1%; 50.9;Process;[PID 1956] /usr/bin/pulseaudio --daemonize=no --log-target=journal 
+  0.1%; 26.2;Process;[PID 16] [rcu_preempt]
+  3.4%; 11.6;Process;[PID 13180] /snap/code/158/usr/share/code/code --type=renderer --crashpad-handler-pid=12343 --enable-crash-reporter=05ec2761-1a
+  0.1%; 21.5;Process;[PID 459] [irq/139-rtw88_p]
+  0.2%; 20.8;Process;[PID 13207] /snap/code/158/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-
+
+____________________________________________________________________
+ *  *  *   Processor Idle State Report   *  *  *
+
+Package;0
+C2 (pc2); 60.7%
+C3 (pc3);  0.0%
+C6 (pc6);  0.0%
+C7 (pc7);  0.0%
+C8 (pc8);  0.0%
+C9 (pc9);  0.0%
+C10 (pc10);  0.0%
+;
+;
+;
+
+;Core 0
+C3 (cc3);  0.1%
+C6 (cc6);  2.0%
+C7 (cc7); 83.4%
+;Core 1
+C3 (cc3);  0.1%
+C6 (cc6);  3.0%
+C7 (cc7); 83.9%
+;Core 2
+C3 (cc3);  0.1%
+C6 (cc6);  3.3%
+C7 (cc7); 77.9%
+;Core 3
+C3 (cc3);  0.1%
+C6 (cc6);  2.0%
+C7 (cc7); 82.1%
+
+CPU;0;CPU;4
+C0 active;  4.9%;  3.6%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.2%;   0.2 ms;  0.3%;   0.9 ms
+;
+C3;  0.1%;   0.2 ms;  0.1%;   0.1 ms
+C6;  1.4%;   0.6 ms;  1.2%;   0.6 ms
+C7s;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C8; 22.0%;   2.2 ms; 15.7%;   2.1 ms
+C9;  0.1%;   2.4 ms;  0.2%;   6.0 ms
+;
+C10; 68.6%;   6.2 ms; 76.3%;   9.5 ms
+C1E;  0.2%;   0.3 ms;  0.3%;   0.3 ms
+CPU;1;CPU;5
+C0 active;  2.8%;  3.0%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.2%;   0.6 ms;  0.3%;   0.2 ms
+;
+C3;  0.1%;   0.2 ms;  0.1%;   0.1 ms
+C6;  1.9%;   0.6 ms;  2.0%;   0.6 ms
+C7s;  0.0%;   0.0 ms;  0.0%;   0.9 ms
+C8; 22.6%;   2.0 ms; 24.7%;   2.3 ms
+C9;  0.5%;   3.0 ms;  0.2%;   3.3 ms
+;
+C10; 68.9%;   7.3 ms; 66.2%;   9.3 ms
+C1E;  0.1%;   0.2 ms;  0.3%;   0.4 ms
+CPU;2;CPU;6
+C0 active;  7.0%;  4.5%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.0%;   0.1 ms;  0.2%;   0.8 ms
+;
+C3;  0.2%;   0.1 ms;  0.0%;   0.1 ms
+C6;  3.2%;   0.6 ms;  1.2%;   0.6 ms
+C7s;  0.0%;   0.0 ms;  0.0%;   0.3 ms
+C8; 36.1%;   2.3 ms; 14.7%;   2.1 ms
+C9;  0.3%;   4.6 ms;  0.2%;   2.7 ms
+;
+C10; 48.9%;   4.4 ms; 76.6%;   8.6 ms
+C1E;  0.3%;   0.3 ms;  0.1%;   0.2 ms
+CPU;3;CPU;7
+C0 active;  4.8%;  6.8%;
+POLL;  0.0%;   0.0 ms;  0.0%;   0.0 ms
+C1;  0.1%;   0.1 ms;  0.3%;   0.3 ms
+;
+C3;  0.0%;   0.1 ms;  0.1%;   0.2 ms
+C6;  1.5%;   0.6 ms;  1.3%;   0.6 ms
+C7s;  0.0%;   0.0 ms;  0.0%;   0.4 ms
+C8; 13.5%;   2.1 ms; 13.5%;   2.0 ms
+C9;  0.0%;   0.9 ms;  0.1%;   1.7 ms
+;
+C10; 77.7%;  10.9 ms; 75.9%;  10.3 ms
+C1E;  0.3%;   0.3 ms;  0.3%;   0.3 ms
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+
+____________________________________________________________________
+ *  *  *   Processor Frequency Report   *  *  *
+
+Package;0
+Idle;
+;
+;
+;
+
+;Core 0
+Idle;
+;Core 1
+Idle;
+;Core 2
+Idle;
+;Core 3
+Idle;
+
+CPU 0;CPU 4
+Average;  1282 MHz;  1177 MHz
+Idle;
+CPU 1;CPU 5
+Average;   939 MHz;   960 MHz
+Idle;
+CPU 2;CPU 6
+Average;  1250 MHz;  1270 MHz
+Idle;
+CPU 3;CPU 7
+Average;  1343 MHz;1.6 GHz
+Idle;
+;;
+;;
+;;
+;;
+
+____________________________________________________________________
+ *  *  *   Overview of Software Power Consumers   *  *  *
+
+Usage;Wakeups/s;GPU ops/s;Disk IO/s;GFX Wakeups/s;Category;Description
+  7.1 ms/s;421.6;;;;Timer;tick_sched_timer
+ 14.6 ms/s;  0.5;;;;Process;[PID 1842] /usr/bin/pulseaudio --daemonize=no --log-target=journal 
+ 47.1 ms/s; 77.6;;;;Process;[PID 258532] /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=64211 --enable-crash-reporter=4e566ae1-07c3-41b7-
+  7.4 ms/s; 74.3;;;;Timer;hrtimer_wakeup
+ 10.6 ms/s; 50.9;;;;Process;[PID 1956] /usr/bin/pulseaudio --daemonize=no --log-target=journal 
+595.1 us/s; 26.2;;;;Process;[PID 16] [rcu_preempt]
+ 34.0 ms/s; 11.6;;;;Process;[PID 13180] /snap/code/158/usr/share/code/code --type=renderer --crashpad-handler-pid=12343 --enable-crash-reporter=05ec2761-1a
+664.4 us/s; 21.5;;;;Process;[PID 459] [irq/139-rtw88_p]
+  2.1 ms/s; 20.8;;;;Process;[PID 13207] /snap/code/158/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-
+ 41.0 ms/s;  0.6;;;;Process;[PID 62701] htop 
+ 33.6 us/s; 15.8;;;;kWork;flush_to_ldisc
+ 34.1 ms/s; 0.30;;;;Process;[PID 16188] htop 
+168.4 us/s; 12.2;;;;kWork;psi_avgs_work
+238.8 us/s; 11.5;;;;kWork;engine_retire
+  1.2 ms/s; 10.4;;;;Process;[PID 258649] /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbo
+ 25.5 ms/s;  0.6;;;;Process;[PID 258646] /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=64211 --enable-crash-reporter=4e566ae1-07c3-41b7-
+  1.2 ms/s;  9.2;;;;Process;[PID 12501] /snap/code/158/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-
+ 95.1 us/s;  9.2;;;;kWork;rtw_c2h_work
+ 17.0 ms/s;  2.2;;;;Process;[PID 2028] /usr/bin/gnome-shell 
+  1.6 ms/s;  8.0;;;;Process;[PID 66876] /usr/bin/python3 /usr/bin/docker-compose up 
+  2.9 ms/s;  7.1;;;;Process;[PID 64203] /opt/google/chrome/chrome http://localhost:3000/ 
+219.5 us/s;  8.1;;;;kWork;cfg80211_wiphy_work
+  1.4 ms/s;  7.4;;;;Process;[PID 64927] /usr/bin/python3 /usr/bin/docker-compose up 
+ 16.7 ms/s;  1.1;;;;Process;[PID 250605] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 207 -isForBrowser -prefsLen 31503 -prefMapSize 23
+354.1 us/s;  7.3;;;;Process;[PID 226044] /snap/firefox/3779/usr/lib/firefox/firefox 
+  1.0 ms/s;  6.6;;;;Interrupt;[0] HI_SOFTIRQ
+ 33.9 us/s;  6.1;;;;Timer;intel_uncore_fw_release_timer
+  8.8 ms/s;  2.3;;;;Process;[PID 3595] /snap/firefox/3779/usr/lib/firefox/firefox 
+232.5 us/s;  5.5;;;;kWork;__intel_wakeref_put_work
+ 41.4 us/s;  5.3;;;;Process;[PID 103] [hwrng]
+255.8 us/s;  5.1;;;;Process;[PID 685] /usr/bin/containerd 
+  4.7 ms/s;  3.1;;;;Process;[PID 12452] /snap/code/158/usr/share/code/code --type=gpu-process --disable-gpu-sandbox --no-sandbox --crashpad-handler-pid=123
+ 87.6 us/s;  4.7;;;;kWork;intel_atomic_cleanup_work
+199.3 us/s;  4.6;;;;kWork;intel_atomic_commit_work
+260.1 us/s;  4.5;;;;Process;[PID 13203] /snap/code/158/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-
+  1.2 ms/s;  4.1;;;;Interrupt;[3] net_rx(softirq)
+  1.8 ms/s;  3.3;;;;Process;[PID 7977] /usr/libexec/gnome-terminal-server 
+  8.4 ms/s;  0.6;;;;Process;[PID 258695] /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbo
+290.2 us/s;  3.7;;;;Interrupt;[141] i915
+  7.1 ms/s;  0.7;;;;Interrupt;[7] sched(softirq)
+  1.6 ms/s;  2.8;;;;Process;[PID 20421] /lib/systemd/systemd-oomd 
+  1.3 ms/s;  2.7;;;;Process;[PID 58930] /snap/code/158/usr/share/code/code --max-old-space-size=3072 /snap/code/158/usr/share/code/resources/app/extensions
+ 74.2 us/s;  3.1;;;;kWork;loop_workfn
+  7.1 ms/s; 0.30;;;;Process;[PID 12478] /snap/code/158/usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-
+ 11.0 us/s;  3.0;;;;kWork;intel_atomic_helper_free_state_
+  5.7 ms/s;  0.6;;;;Process;[PID 264162] /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=64211 --enable-crash-reporter=4e566ae1-07c3-41b7-
+  3.5 ms/s;  1.4;;;;Process;[PID 64252] /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=64211 --enable-crash-reporter=4e566ae1-07c3-41b
+ 17.3 us/s;  2.7;;;;kWork;blk_mq_run_work_fn
+  4.2 ms/s;  0.9;;;;Process;[PID 3709] /snap/firefox/3779/usr/lib/firefox/firefox 
+ 47.3 us/s;  2.6;;;;kWork;rtw_tx_work
+  4.2 ms/s;  0.9;;;;Process;[PID 262880] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 211 -isForBrowser -prefsLen 31503 -prefMapSize 23
+  1.8 ms/s;  1.7;;;;Process;[PID 64337] /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=64211 --enable-crash-reporter=4e566ae1-07c3-41b
+169.2 us/s;  2.2;;;;Interrupt;[137] nvme0q6
+  2.3 ms/s;  1.3;;;;Process;[PID 216034] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 163 -isForBrowser -prefsLen 31306 -prefMapSize 23
+248.1 us/s;  2.1;;;;Process;[PID 4472] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 30864 -prefMapSize 237048
+ 26.2 us/s;  2.1;;;;kWork;intel_display_power_put_async_w
+256.4 us/s;  2.0;;;;Process;[PID 219520] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 182 -isForBrowser -prefsLen 31306 -prefMapSize 23
+298.1 us/s;  1.9;;;;Process;[PID 687] /usr/bin/containerd 
+  3.3 ms/s;  0.7;;;;Process;[PID 8413] /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.9XLBN2 -listen 4 -l
+  1.9 ms/s;  1.2;;;;Process;[PID 12327] /snap/code/158/usr/share/code/code --no-sandbox --force-user-env 
+  4.4 ms/s; 0.05;;;;Interrupt;[9] RCU(softirq)
+  3.8 ms/s; 0.30;;;;Process;[PID 175066] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 111 -isForBrowser -prefsLen 31306 -prefMapSize 23
+ 30.1 us/s;  1.7;;;;Timer;watchdog_timer_fn
+229.1 us/s;  1.6;;;;Process;[PID 216060] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 163 -isForBrowser -prefsLen 31306 -prefMapSize 23
+  2.0 ms/s;  0.9;;;;Process;[PID 72418] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 47 -isForBrowser -prefsLen 31307 -prefMapSize 2370
+  3.5 ms/s; 0.30;;;;Process;[PID 3705] /snap/firefox/3779/usr/lib/firefox/firefox 
+  2.6 ms/s;  0.6;;;;Process;[PID 219511] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 182 -isForBrowser -prefsLen 31306 -prefMapSize 23
+  0.8 ms/s;  1.3;;;;Process;[PID 264682] git
+179.2 us/s;  1.5;;;;Process;[PID 262845] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 210 -isForBrowser -prefsLen 31503 -prefMapSize 23
+157.4 us/s;  1.5;;;;Process;[PID 175075] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 111 -isForBrowser -prefsLen 31306 -prefMapSize 23
+213.6 us/s;  1.4;;;;Process;[PID 752] /usr/bin/containerd 
+195.6 us/s;  1.4;;;;Process;[PID 244344] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 194 -isForBrowser -prefsLen 31503 -prefMapSize 23
+171.9 us/s;  1.3;;;;Process;[PID 250614] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 207 -isForBrowser -prefsLen 31503 -prefMapSize 23
+ 35.8 us/s;  1.3;;;;Interrupt;[142] nvme0q8
+  3.4 ms/s;;;;;Process;[PID 70] [kcompactd0]
+  1.5 ms/s;  0.7;;;;Process;[PID 4456] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 30864 -prefMapSize 237048
+181.0 us/s;  1.2;;;;Process;[PID 262922] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 212 -isForBrowser -prefsLen 31503 -prefMapSize 23
+164.7 us/s;  1.2;;;;Process;[PID 72427] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 47 -isForBrowser -prefsLen 31307 -prefMapSize 2370
+160.9 us/s;  1.2;;;;Process;[PID 229061] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 187 -isForBrowser -prefsLen 31306 -prefMapSize 23
+ 33.0 us/s;  1.3;;;;Interrupt;[135] nvme0q4
+ 17.3 us/s;  1.3;;;;kWork;blk_mq_requeue_work
+ 24.1 us/s;  1.2;;;;kWork;delayed_vfree_work
+143.2 us/s;  1.2;;;;Process;[PID 250534] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 205 -isForBrowser -prefsLen 31503 -prefMapSize 23
+136.5 us/s;  1.2;;;;Timer;timerfd_tmrproc
+170.3 us/s;  1.0;;;;Process;[PID 262889] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 211 -isForBrowser -prefsLen 31503 -prefMapSize 23
+  1.0 ms/s;  0.7;;;;Process;[PID 250525] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 205 -isForBrowser -prefsLen 31503 -prefMapSize 23
+ 16.3 us/s;  1.1;;;;kWork;kfree_rcu_monitor
+  2.2 ms/s; 0.10;;;;Process;[PID 229052] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 187 -isForBrowser -prefsLen 31306 -prefMapSize 23
+189.5 us/s;  0.9;;;;kWork;__i915_gem_free_work
+ 25.1 us/s;  0.9;;;;kWork;vmstat_shepherd
+ 66.9 us/s;  0.8;;;;Process;[PID 8351] /snap/telegram-desktop/5820/usr/bin/telegram-desktop -- 
+ 46.8 us/s;  0.8;;;;Process;[PID 219518] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 182 -isForBrowser -prefsLen 31306 -prefMapSize 23
+ 43.0 us/s;  0.8;;;;Process;[PID 2122] /usr/libexec/gvfs-afc-volume-monitor 
+  6.1 us/s;  0.8;;;;kWork;pci_pme_list_scan
+ 53.9 us/s;  0.8;;;;Process;[PID 244342] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 194 -isForBrowser -prefsLen 31503 -prefMapSize 23
+174.8 us/s;  0.7;;;;Process;[PID 708] /usr/bin/containerd 
+291.4 us/s;  0.7;;;;Process;[PID 263327] [kworker/u16:2]
+  1.8 ms/s; 0.05;;;;Process;[PID 264691] sh
+ 54.0 us/s;  0.7;;;;Process;[PID 262920] /snap/firefox/3779/usr/lib/firefox/firefox -contentproc -childID 212 -isForBrowser -prefsLen 31503 -prefMapSize 23
+;;;;;;
+
+
+The battery reports a discharge rate of:  416 m W;
+
+The energy consumed was :  8.28  J;
+____________________________________________________________________
+ *  *  *   Device Power Report   *  *  *
+
+Usage;Device Name
+ 40.0%;CPU misc
+ 40.0%;CPU core
+100.0%;Audio codec hwC0D2: Intel
+100.0%;Audio codec hwC0D0: Realtek (pulseaudio )
+ 40.0%;DRAM
+ 45.5%;Display backlight
+100.0%;Radio device: rtw_8821ce
+100.0%;Radio device: btusb
+100.0%;PCI Device: Realtek Semiconductor Co., Ltd. RTL8821CE 802.11ac PCIe Wireless Network Adapter
+100.0%;PCI Device: Intel Corporation 82801 Mobile SATA Controller [RAID mode]
+100.0%;PCI Device: Intel Corporation Sunrise Point LPC Controller/eSPI Controller
+100.0%;PCI Device: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+100.0%;PCI Device: Intel Corporation Sunrise Point-LP PCI Express Root Port #6
+100.0%;PCI Device: Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers
+100.0%;PCI Device: Intel Corporation UHD Graphics 620
+100.0%;PCI Device: Intel Corporation Sunrise Point-LP HD Audio
+100.0%;PCI Device: Samsung Electronics Co Ltd NVMe SSD Controller SM981/PM981/PM983
+100.0%;PCI Device: Intel Corporation Sunrise Point-LP PCI Express Root Port #5
+100.0%;PCI Device: Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+100.0%;PCI Device: Intel Corporation Sunrise Point-LP Thermal subsystem
+100.0%;PCI Device: Intel Corporation Sunrise Point-LP PCI Express Root Port #9
+  6.3 pkts/s;Network interface: wlo1 (rtw_8821ce)
+  0.0%;USB device: HP TrueVision HD Camera (Chicony Electronics Co.,Ltd.)
+  0.0%;USB device: xHCI Host Controller
+  0.0%;USB device: Bluetooth Radio  (Realtek )
+  0.0 pkts/s;nic:veth0cd5bb8
+  0.0 pkts/s;nic:veth6c8803f
+  0.0 pkts/s;Network interface: eno1 (r8169)
+  0.0 pkts/s;nic:docker0
+  0.0%;PCI Device: NVIDIA Corporation GM108M [GeForce MX130]
+  0.0 pkts/s;nic:br-8cc5ff4e69dd
+  0.0 pkts/s;nic:br-d2ac5738fe7d
+  0.0 pkts/s;nic:br-a9f9332b44fc
+  0.0 pkts/s;nic:veth28a1c2a
+  0.0%;PCI Device: Intel Corporation Sunrise Point-LP PMC
+  0.0%;PCI Device: Intel Corporation Sunrise Point-LP PCI Express Root Port #1
+  0.0%;PCI Device: Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+  0.0%;PCI Device: Intel Corporation Sunrise Point-LP CSME HECI #1
+  0.0%;PCI Device: Intel Corporation Sunrise Point-LP USB 3.0 xHCI Controller
+  0.0 pkts/s;nic:vethdb0d564
+  0.0%;runtime-kgdboc
+  0.0%;PCI Device: Intel Corporation Sunrise Point-LP SMBus
+  0.0%;runtime-PNP0C14:00
+  0.0%;runtime-alarmtimer.0.auto
+  0.0%;runtime-reg-dummy
+  0.0%;runtime-iTCO_wdt
+  0.0%;runtime-PNP0C0D:00
+  0.0%;runtime-PNP0C0A:00
+  0.0%;runtime-eisa.0
+  0.0%;USB device: xHCI Host Controller
+  0.0%;runtime-ACPI0003:00
+  0.0%;runtime-acpi-cpufreq
+  0.0%;runtime-INT33A1:00
+  0.0%;runtime-rtc_cmos
+  0.0%;runtime-intel_xhci_usb_sw
+  0.0%;runtime-PNP0C0B:01
+  0.0%;runtime-INT33D6:00
+  0.0%;runtime-PNP0C0B:03
+  0.0%;runtime-PNP0C09:01
+  0.0%;runtime-snd-soc-dummy
+  0.0%;runtime-intel_rapl_msr.0
+  0.0%;runtime-HPQ6001:00
+  0.0%;runtime-Fixed MDIO bus.0
+  0.0%;runtime-ACPI000C:00
+  0.0%;runtime-rtc-efi.0
+  0.0%;runtime-INT0800:00
+  0.0%;I2C Adapter (i2c-7): AUX A/DDI A/PHY A
+  0.0%;runtime-microcode
+  0.0%;runtime-PNP0C0B:04
+  0.0%;runtime-PNP0C0B:02
+  0.0%;runtime-coretemp.0
+  0.0%;runtime-regulatory.0
+  0.0%;runtime-MSFT0101:00
+  0.0%;runtime-ACPI000E:00
+  0.0%;runtime-PNP0C0B:00
+  0.0%;runtime-PNP0C14:01
+  0.0%;I2C Device (0-0037): dummy
+  0.0%;I2C Adapter (i2c-3): nvkm-0000:01:00.0-bus-0005
+  0.0%;I2C Adapter (i2c-0): SMBus I801 adapter at 6040
+  0.0%;I2C Adapter (i2c-2): nvkm-0000:01:00.0-bus-0002
+  0.0%;I2C Adapter (i2c-4): i915 gmbus dpc
+  0.0%;runtime-efivars.0
+  0.0%;runtime-serial8250
+  0.0%;I2C Adapter (i2c-6): i915 gmbus dpd
+  0.0%;runtime-PNP0103:00
+  0.0%;I2C Device (0-0036): dummy
+  0.0%;runtime-i8042
+  0.0%;runtime-hp-wmi
+  0.0%;runtime-INT3400:00
+  0.0%;I2C Adapter (i2c-1): nvkm-0000:01:00.0-bus-0001
+  0.0%;I2C Device (0-0050): ee1004
+  0.0%;runtime-PNP0C14:02
+  0.0%;runtime-pcspkr
+  0.0%;I2C Adapter (i2c-5): i915 gmbus dpb
+____________________________________________________________________
+ *  *  *   Process Device Activity   *  *  *
+
+Process;Device
+systemd;/dev/autofs
+;/dev/dri/card1
+;/dev/input/event0
+;/dev/input/event1
+;/dev/input/event2
+;/dev/input/event3
+;/dev/input/event4
+;/dev/input/event5
+;/dev/input/event6
+;/dev/input/event7
+;/dev/kmsg
+;/dev/rfkill
+systemd-journal;/dev/kmsg
+;/dev/kmsg
+acpid;/dev/input/event0
+;/dev/input/event1
+;/dev/input/event10
+;/dev/input/event11
+;/dev/input/event12
+;/dev/input/event2
+;/dev/input/event5
+;/dev/input/event6
+;/dev/input/event7
+;/dev/input/event8
+;/dev/input/event9
+bluetoothd;/dev/rfkill
+systemd-logind;/dev/dri/card1
+;/dev/input/event0
+;/dev/input/event0
+;/dev/input/event1
+;/dev/input/event1
+;/dev/input/event2
+;/dev/input/event2
+;/dev/input/event3
+;/dev/input/event4
+;/dev/input/event5
+;/dev/input/event5
+;/dev/input/event6
+;/dev/input/event7
+thermald;/dev/input/event0
+wpa_supplicant;/dev/rfkill
+upowerd;/dev/input/event0
+pulseaudio;/dev/snd/controlC0
+;/dev/snd/controlC0
+;/dev/snd/controlC0
+;/dev/snd/controlC0
+;/dev/snd/pcmC0D0p
+xdg-document-po;/dev/fuse
+gvfsd-fuse;/dev/fuse
+gnome-shell;/dev/dri/card1
+;/dev/dri/card1
+;/dev/dri/card1
+;/dev/dri/card1
+;/dev/dri/card1
+;/dev/input/event0
+;/dev/input/event1
+;/dev/input/event2
+;/dev/input/event3
+;/dev/input/event4
+;/dev/input/event5
+;/dev/input/event6
+;/dev/input/event7
+gsd-rfkill;/dev/rfkill
+;/dev/rfkill
+firefox;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+telegram-deskto;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+Xwayland;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+gsd-xsettings;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+RDD Process;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+code;/dev/dri/renderD128
+;/dev/dri/renderD129
+chrome;/dev/dri/renderD128
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+;/dev/dri/renderD129
+
+____________________________________________________________________
+ *  *  *   AHCI ALPM Residency Statistics - Not supported on this macine   *  *  *
+
+____________________________________________________________________
+ *  *  *   Software Settings in Need of Tuning   *  *  *
+
+Description;Script
+VM writeback timeout;echo '1500' > '/proc/sys/vm/dirty_writeback_centisecs';
+Enable SATA link power management for host0;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host0/link_power_management_policy';
+Enable SATA link power management for host1;echo 'med_power_with_dipm' > '/sys/class/scsi_host/host1/link_power_management_policy';
+NMI watchdog should be turned off;echo '0' > '/proc/sys/kernel/nmi_watchdog';
+Runtime PM for PCI Device Intel Corporation 82801 Mobile SATA Controller [RAID mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/power/control';
+Runtime PM for PCI Device Realtek Semiconductor Co., Ltd. RTL8821CE 802.11ac PCIe Wireless Network Adapter;echo 'auto' > '/sys/bus/pci/devices/0000:03:00.0/power/control';
+Runtime PM for port ata1 of PCI device: Intel Corporation 82801 Mobile SATA Controller [RAID mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata1/power/control';
+Runtime PM for port ata2 of PCI device: Intel Corporation 82801 Mobile SATA Controller [RAID mode];echo 'auto' > '/sys/bus/pci/devices/0000:00:17.0/ata2/power/control';
+Runtime PM for PCI Device Intel Corporation Sunrise Point LPC Controller/eSPI Controller;echo 'auto' > '/sys/bus/pci/devices/0000:00:1f.0/power/control';
+Runtime PM for PCI Device Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller;echo 'auto' > '/sys/bus/pci/devices/0000:02:00.0/power/control';
+Runtime PM for PCI Device Intel Corporation Xeon E3-1200 v6/7th Gen Core Processor Host Bridge/DRAM Registers;echo 'auto' > '/sys/bus/pci/devices/0000:00:00.0/power/control';
+____________________________________________________________________
+ *  *  *   Untunable Software Issues   *  *  *
+
+Description
+I2C Device 0-0050 has no runtime power management
+I2C Device 0-0037 has no runtime power management
+I2C Adapter i2c-7 has no runtime power management
+I2C Device 0-0036 has no runtime power management
+____________________________________________________________________
+ *  *  *   Optimal Tuned Software Settings   *  *  *
+
+Description
+Bluetooth device interface status
+Enable Audio codec power management
+Autosuspend for USB device xHCI Host Controller [usb1]
+Runtime PM for I2C Adapter i2c-6 (i915 gmbus dpd)
+Autosuspend for USB device Bluetooth Radio  [Realtek ]
+Autosuspend for USB device HP TrueVision HD Camera [Chicony Electronics Co.,Ltd.]
+Runtime PM for I2C Adapter i2c-5 (i915 gmbus dpb)
+Runtime PM for I2C Adapter i2c-2 (nvkm-0000:01:00.0-bus-0002)
+Runtime PM for I2C Adapter i2c-3 (nvkm-0000:01:00.0-bus-0005)
+Autosuspend for USB device xHCI Host Controller [usb2]
+Runtime PM for I2C Adapter i2c-1 (nvkm-0000:01:00.0-bus-0001)
+Runtime PM for I2C Adapter i2c-4 (i915 gmbus dpc)
+Runtime PM for I2C Adapter i2c-0 (SMBus I801 adapter at 6040)
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP CSME HECI #1
+Runtime PM for PCI Device NVIDIA Corporation GM108M [GeForce MX130]
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP HD Audio
+Runtime PM for PCI Device Intel Corporation Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP PCI Express Root Port #9
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP PCI Express Root Port #5
+Runtime PM for PCI Device Samsung Electronics Co Ltd NVMe SSD Controller SM981/PM981/PM983
+Runtime PM for PCI Device Intel Corporation UHD Graphics 620
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP PCI Express Root Port #6
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP SMBus
+Runtime PM for PCI Device Intel Corporation Xeon E3-1200 v5/v6 / E3-1500 v5 / 6th/7th/8th Gen Core Processor Gaussian Mixture Model
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP PCI Express Root Port #1
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP PMC
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP Thermal subsystem
+Runtime PM for PCI Device Intel Corporation Sunrise Point-LP USB 3.0 xHCI Controller
+
+____________________________________________________________________
+ *  *  *   Wake status of the devices   *  *  *
+
+Description;Script
+Wake-on-lan status for device eno1;echo 'enabled' > '/sys/class/net/eno1/device/power/wakeup';
+Wake-on-lan status for device wlo1;echo 'enabled' > '/sys/class/net/wlo1/device/power/wakeup';
+Wake status for USB device usb1;echo 'enabled' > '/sys/bus/usb/devices/usb1/power/wakeup';
+Wake status for USB device usb2;echo 'enabled' > '/sys/bus/usb/devices/usb2/power/wakeup';
+Wake status for USB device 1-6;echo 'enabled' > '/sys/bus/usb/devices/1-6/power/wakeup';

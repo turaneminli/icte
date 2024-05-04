@@ -2,7 +2,7 @@
 config:
   target: "http://localhost:3000" # Target URL of your monolithic Node.js app
   phases:
-    - duration: 60
+    - duration: 120
       arrivalRate: 10 # 10 virtual users per second
   defaults:
     headers:
